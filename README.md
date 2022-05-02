@@ -1,83 +1,229 @@
 
 # Tabla "Guia" =\> "Cheat-Sheet":
 
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-9wq8" colspan="6">MODELO DE CAPAS (Layers)</th>
-    <th class="tg-9wq8" rowspan="2">Protocolos de red </th>
-    <th class="tg-9wq8" rowspan="2">Dispositivo de conexion de red</th>
-  </tr>
-  <tr>
-    <th class="tg-9wq8">"Tipos" de Capas</th>
-    <th class="tg-9wq8" colspan="2"> MODELO OSI</th>
-    <th class="tg-9wq8" colspan="2">MODELO TCP/IP </th>
-    <th class="tg-9wq8">Unidad de datos de protocolo (PDU)</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-9wq8" rowspan="4">Capas del anfitrion/host "Software"</td>
-    <td class="tg-9wq8">7</td>
-    <td class="tg-9wq8">Aplication</td>
-    <td class="tg-9wq8" rowspan="3">4</td>
-    <td class="tg-9wq8" rowspan="3">Process</td>
-    <td class="tg-9wq8" rowspan="3"></td>
-    <td class="tg-9wq8" rowspan="3"></td>
-    <td class="tg-9wq8" rowspan="4"></td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8">6</td>
-    <td class="tg-9wq8">Presentation</td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8">5</td>
-    <td class="tg-9wq8">Session</td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8">4</td>
-    <td class="tg-9wq8">Transport</td>
-    <td class="tg-9wq8">3</td>
-    <td class="tg-9wq8">Transport</td>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8"></td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8" rowspan="4">Capas de red  "Firmware" "Hardware"</td>
-    <td class="tg-9wq8">3</td>
-    <td class="tg-9wq8">Network</td>
-    <td class="tg-9wq8">2</td>
-    <td class="tg-9wq8">Network / Internet</td>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8"></td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8">2</td>
-    <td class="tg-9wq8">Data link</td>
-    <td class="tg-9wq8" rowspan="3">1</td>
-    <td class="tg-9wq8" rowspan="3">Media</td>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8"></td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8">1</td>
-    <td class="tg-9wq8">Physical</td>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8"></td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8">0*</td>
-    <td class="tg-9wq8">Media</td>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8"></td>
-    <td class="tg-9wq8"></td>
-  </tr>
-</tbody>
+<table>
+    <tr>
+        <td>MODELO DE CAPAS (Layers)</td>
+        <td>__EMPTY</td>
+        <td>__EMPTY_3</td>
+        <td>__EMPTY_5</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>"Tipos" de Capas</td>
+        <td>MODELO OSI</td>
+        <td>MODELO TCP/IP </td>
+        <td>Unidad de datos de protocolo (PDU)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Capas del anfitrion/host "Software"</td>
+        <td>7</td>
+        <td>Aplication</td>
+        <td>4</td>
+        <td>Process</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Presentation</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Session</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Transport</td>
+        <td>3</td>
+        <td>Transport</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Capas de red "Firmware" "Hardware"</td>
+        <td>3</td>
+        <td>Network</td>
+        <td>2</td>
+        <td>Network / Internet</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Data link</td>
+        <td>1</td>
+        <td>Media</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Physical</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>0*</td>
+        <td>Media</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
 </table>
-
 *La capa de Medio (Media) no forma parte oficial del Modelo OSI, pero esquematicamente la estudiamos ahi
 
 # Glosario
